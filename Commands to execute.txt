@@ -1,0 +1,15 @@
+##Backend
+npm init
+npm i nodemon express router cors mongoose dotenv
+
+#Installs all the packages available in package.json
+npm i install 
+
+#run app
+npx nodemon #In package.json main tag has value App.js
+npx nodemon App #In package.json main tag has value index.js
+
+##Frontend
+npx create-react-app frontend
+npm i axios react-router-dom
+npm start
